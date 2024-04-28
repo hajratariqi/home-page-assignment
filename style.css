@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body{
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+}
+header{
+    display: flex;
+    padding: 5px;
+    color: white;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: black;
+    justify-content: space-around;
+}
+header img{
+    width: 170px;
+    height: 40px;
+    object-fit: contain;
+    margin-top: 10px;
+}
+ul{
+    display: flex;
+    color: white ;
+    gap: 2vw;
+    padding: 0;}
+
+li{
+    list-style-type: none;
+    font-size: 19px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+header button{
+    border: none;
+    color: white;
+    cursor: pointer;    
+    font-size: 19px;
+    margin-left: 5vw;
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: red;
+}
+/* slider */
+.slider > img{
+    width: 100%;
+    object-fit: contain;
+}
+
+/* intro section */
+.inline-row{
+    display: flex;
+    flex-wrap: wrap;  
+    align-items: center;
+    margin-top: 5%;
+    justify-content: space-around;
+}
+.content-text{
+    width: 700px;
+}
+.inline-row h1{
+    font-size: 45px;
+    font-weight: bolder;
+    color: #000;
+}
+.inline-row p{
+    color: gray;
+    font-size: 20px;
+}
+.row-iamge {
+    width:701px;
+    text-align: center;
+}
+.row-iamge > img{
+    width: 60%;
+}
+.content-text button {
+    border: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 10px 50px;
+    border-radius: 5px;
+    background-color:cadetblue;
+
+}
+/* footer */
+footer{
+    margin-top: 5%;
+}
+footer > div{
+    padding: 10px;
+    padding-top: 40px;
+    display: flex;
+    color: white ;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #2F0A0D;
+    flex-wrap: wrap;
+}
+
+footer > div  >div{
+    width: 500px;
+}
+footer img{
+    width: 30%;
+}
+.copy-rights{
+    color: grey;
+    border-top: 1px solid gray;
+}
+
+/* small screen */
+@media screen and (max-width : 620px) {
+    .inline-row h1{
+    font-size: 32px;
+    font-weight: 600;
+
+}
+.inline-row p{
+    font-size: 15px;
+}
+}
